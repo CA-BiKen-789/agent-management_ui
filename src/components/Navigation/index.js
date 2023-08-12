@@ -14,16 +14,16 @@ function Navigation() {
             <div className={cx('inner')}>
                 <ul>
                     <li>
-                        <NavLink exact to="/" className={cx(isActive('/'))}>
+                        <NavLink to="/" className={cx(isActive('/'))}>
                             Giới Thiệu
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/about" className={cx(isActive('/about'))}>
+                        <NavLink to="/about" className={cx(isActive('/about'))}>
                             về chúng tôi
                         </NavLink>
                     </li>
-                    <li>
+                    {/* <li>
                         <NavLink exact to="/policy" className={cx(isActive('/policy'))}>
                             chính sách
                         </NavLink>
@@ -37,7 +37,7 @@ function Navigation() {
                         <NavLink exact to="/information" className={cx(isActive('/information'))}>
                             thông tin
                         </NavLink>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </div>
