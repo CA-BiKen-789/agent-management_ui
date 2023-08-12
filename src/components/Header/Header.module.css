@@ -1,0 +1,97 @@
+.wrapper {
+    width: 62%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.slogan {
+    margin: 14px 0 0 26px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    color: #fff;
+    padding: 14px;
+    padding-right: 0;
+}
+
+.locate {
+    display: flex;
+    align-items: center;
+}
+
+.locate span {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.local-time {
+    border-right: 1px solid #fff;
+    text-transform: uppercase;
+    padding: 0 30px;
+    padding-left: 0;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+}
+
+.language ul li {
+    display: flex;
+    align-items: center;
+}
+
+.language ul li span {
+    padding-left: 50px;
+    font-size: 1.8rem;
+}
+
+.language ul li img {
+    width: 24px;
+    border: 3px solid #000;
+    border-radius: 50%;
+    box-shadow: 5px 5px 4px #000;
+    margin: 0 10px;
+}
+
+.access {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.access a {
+    display: block;
+    width: 189px;
+    text-align: center;
+    padding: 8px 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: #ff5f0c;
+}
+
+.access .register {
+    background: #f9a631;
+}
+
+.access a:hover {
+    opacity: 0.6;
+}
