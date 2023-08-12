@@ -1,7 +1,6 @@
-/* .wrapper {
-    background-color: #171717;
-    margin: 0 auto;
-    height: 107px;
-    display: flex;
-    align-items: center;
-} */
+.content {
+    background: url(../../../public/images/background_content.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

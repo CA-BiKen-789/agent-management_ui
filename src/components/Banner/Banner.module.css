@@ -1,0 +1,16 @@
+.wrapper {
+    width: 100%;
+}
+
+.inner {
+    width: 62%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.inner img {
+    width: 100%;
+}

@@ -10,8 +10,10 @@ function Home() {
     return (
         <div className={cx('wrapper')}>
             <Header />
-            {/* <Banner /> */}
-            {/* <Navigation /> */}
+            <div className={cx('content')}>
+                <Banner />
+                <Navigation />
+            </div>
         </div>
     );
 }
