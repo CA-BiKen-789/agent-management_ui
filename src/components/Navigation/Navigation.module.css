@@ -1,0 +1,49 @@
+.wrapper {
+    width: 100%;
+    height: 58px;
+}
+
+.inner {
+    width: 62%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    background: #1a1919;
+}
+
+.inner ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner ul li {
+    flex: 1;
+    text-align: center;
+}
+
+.inner ul li a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.inner ul li a:hover {
+    background: var(
+        --linear,
+        linear-gradient(180deg, #f9a631 0%, #ff5f0c 100%)
+    );
+}
+
+.active {
+    background: var(
+        --linear,
+        linear-gradient(180deg, #f9a631 0%, #ff5f0c 100%)
+    );
+}
