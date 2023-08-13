@@ -1,0 +1,15 @@
+.wrapper {
+    background: url(../../../public/images/background_content.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inner {
+    margin: 0 auto;
+    width: 62%;
+}
+
+.discount-content {
+    width: 100%;
+    margin: 20px 0;
+}

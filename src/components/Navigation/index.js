@@ -28,16 +28,16 @@ function Navigation() {
                             chính sách
                         </NavLink>
                     </li>
-                    {/* <li>
+                    <li>
                         <NavLink to="/discount" className={cx(isActive('/discount'))}>
                             cách tính hoa hồng
                         </NavLink>
-                    </li> */}
-                    {/* <li>
+                    </li>
+                    <li>
                         <NavLink to="/information" className={cx(isActive('/information'))}>
                             thông tin
                         </NavLink>
-                    </li> */}
+                    </li>
                 </ul>
             </div>
         </div>
