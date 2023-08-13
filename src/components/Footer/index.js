@@ -10,7 +10,7 @@ function Footer() {
             <div className={cx('inner')}>
                 <div className={cx('description')}>
                     <img src="/images/footer_logo.png" alt='Logo' />
-                    <p className={cx('read-more-link')}>
+                    <div className={cx('read-more-link')}>
                         <ReadMore limit={230}>
                             789BET là nhà cái có giấy phép cá cược trực tuyến hợp pháp được
                             cấp thông qua Khu kinh tế Isle of Man & Cagayan Economic Zone and Free Port.
@@ -19,7 +19,7 @@ function Footer() {
                             cấp thông qua Khu kinh tế Isle of Man & Cagayan Economic Zone and Free Port.
                             Đây là tổ chức quốc tế phát triển với quy mô trải
                         </ReadMore>
-                    </p>
+                    </div>
                 </div>
                 <div className={cx('info')}>
                     <h2>Thông tin</h2>

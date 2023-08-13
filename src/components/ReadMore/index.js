@@ -15,10 +15,10 @@ function ReadMore({ limit, children }) {
     }
 
     return (
-        <p className={cx('read-more-link')}>
-            {readMore ? text : text.substr(0, limit)}
-            <span onClick={toggleReadMore}>{readMore ? ' Ẩn bớt' : '...Xem thêm'}</span>
-        </p>
+        <div className={cx('read-more-link')}>
+            <span>{readMore ? text : text.substr(0, limit)}</span>
+            <span className={cx('btn_see-more')} onClick={toggleReadMore}>{readMore ? ' Ẩn bớt' : '...Xem thêm'}</span>
+        </div>
     );
 }
 

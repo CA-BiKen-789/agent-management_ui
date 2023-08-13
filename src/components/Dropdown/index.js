@@ -19,13 +19,12 @@ function Dropdown({ urlImage, title, children }) {
                 className={toggle ? cx('background') : cx('')}
                 src={urlImage}
                 onClick={setToggle}
-                Toggle State
                 alt={title}
             />
             {toggle && (
-                <p className={cx('content-dropdown')}>
+                <div className={cx('content-dropdown')}>
                     {children}
-                </p>
+                </div>
             )}
         </div>
     );

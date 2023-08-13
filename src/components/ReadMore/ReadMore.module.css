@@ -2,6 +2,14 @@
     cursor: pointer;
     display: inline;
     font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.btn_see-more {
+    cursor: pointer;
+    display: inline;
+    font-size: 16px;
     color: red;
     text-decoration: underline;
     font-weight: 400;
