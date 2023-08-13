@@ -67,7 +67,8 @@
 .content span {
     display: block;
     text-indent: 40px;
-    margin: 20px 0;
+    margin: 16px 0;
+    color: #fff;
 }
 
 .info-more {

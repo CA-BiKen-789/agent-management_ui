@@ -9,7 +9,7 @@ function Footer() {
         <div className={cx('wrapper')}>
             <div className={cx('inner')}>
                 <div className={cx('description')}>
-                    <img src="/images/footer_logo.png" />
+                    <img src="/images/footer_logo.png" alt='Logo' />
                     <p className={cx('read-more-link')}>
                         <ReadMore limit={230}>
                             789BET là nhà cái có giấy phép cá cược trực tuyến hợp pháp được

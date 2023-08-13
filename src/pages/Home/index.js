@@ -4,6 +4,7 @@ import Header from '~/components/Header';
 import Banner from '~/components/Banner';
 import Navigation from '~/components/Navigation';
 import Footer from '~/components/Footer';
+import Title from '~/components/Title';
 
 const cx = classNames.bind(styles);
 
@@ -15,11 +16,7 @@ function Home() {
             <Navigation />
             <div className={cx('container')}>
                 <div className={cx('container-intro')}>
-                    <div className={cx('title')}>
-                        <img src="/images/arrow_left.png" alt="Arrow" />
-                        <span>trang chính thức của 789bet</span>
-                        <img src="/images/arrow_right.png" alt="Arrow" />
-                    </div>
+                    <Title>trang chính thức của 789bet</Title>
                     <div className={cx('intro')}>
                         <img className={cx('title')} src="/images/title_goal.png" alt="Title" />
                         <div className={cx('description')}>

@@ -23,18 +23,18 @@ function Navigation() {
                             về chúng tôi
                         </NavLink>
                     </li>
-                    {/* <li>
-                        <NavLink exact to="/policy" className={cx(isActive('/policy'))}>
+                    <li>
+                        <NavLink to="/policy" className={cx(isActive('/policy'))}>
                             chính sách
                         </NavLink>
                     </li>
-                    <li>
-                        <NavLink exact to="/discount" className={cx(isActive('/discount'))}>
+                    {/* <li>
+                        <NavLink to="/discount" className={cx(isActive('/discount'))}>
                             cách tính hoa hồng
                         </NavLink>
-                    </li>
-                    <li>
-                        <NavLink exact to="/information" className={cx(isActive('/information'))}>
+                    </li> */}
+                    {/* <li>
+                        <NavLink to="/information" className={cx(isActive('/information'))}>
                             thông tin
                         </NavLink>
                     </li> */}

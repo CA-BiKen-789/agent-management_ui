@@ -1,0 +1,39 @@
+.wrapper {
+    background: url(../../../public/images/background_content.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner {
+    width: 62%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnail {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.label {
+    width: 100%;
+}
+
+.label img {
+    width: 100%;
+}
+
+.dropdown {
+    width: 100%;
+}
+
+.dropdown img {
+    width: 100%;
+}

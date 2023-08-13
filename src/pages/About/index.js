@@ -5,6 +5,7 @@ import Banner from '~/components/Banner';
 import Navigation from '~/components/Navigation';
 import Dropdown from '~/components/Dropdown';
 import Footer from '~/components/Footer';
+import Title from '~/components/Title';
 
 const cx = classNames.bind(styles);
 
@@ -16,11 +17,7 @@ function About() {
             <Navigation />
             <div className={cx('inner')}>
                 <div className={cx('intro')}>
-                    <div className={cx('official')}>
-                        <img src="/images/arrow_left.png" alt="Arrow" />
-                        <span>trang chính thức của 789bet</span>
-                        <img src="/images/arrow_right.png" alt="Arrow" />
-                    </div>
+                    <Title>trang chính thức của 789bet</Title>
                 </div>
                 <div className={cx('provide-info')}>
                     <Dropdown
